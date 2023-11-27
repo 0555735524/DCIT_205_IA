@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.cs-log {
+  display: inline;
+}
+.home-button {
+  border-radius: 20px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.about-button {
+  border-radius: 20px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.course-button {
+  border-radius: 20px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.block-button {
+  border-radius: 20px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+.contact-button {
+  border-radius: 20px;
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.home-button:hover {
+  opacity: 0.5;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+
+} 
+.about-button:hover {
+  opacity: 0.5;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+
+}
+.course-button:hover {
+  opacity: 0.5;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+
+}
+.block-button:hover {
+  opacity: 0.5;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+
+}
+.contact-button:hover {
+  opacity: 0.5;
+  background-color: grey;
+  color: white;
+  font-weight: bolder;
+
+} 
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(92, 131, 182, 0.7),rgba(61, 63, 65, 0.7)),url(IMAGES/Computer-Science-Wallpapers-HD.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+      flex: 1;
+      text-align: right;
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.CS-department {
+width: 100%;
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.CS-department h1 {
+  font-size: 70px;
+}
+.CS-department p {
+  font-size: 20px;
+  margin: 10px 0 40px;
+  color: #fff;
+}
+.visit-link {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 35px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.visit-link:hover {
+border: 1px solid khaki;
+color:khaki;
+transition: 1s;
+}
+.next-page {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #6365ce;
+  padding: 15px 35px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.next-page:hover {
+border: 1px solid khaki;
+color:khaki;
+transition: 1s;
+}
+
+/*@media(max-width: 700px){
+  .CS-department h1 {
+    font-size: 20px;
+  }
+  .nav-links ul li {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200vh;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}*/
+.programmes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.p-available {
+  font-size: 36px;
+  font-weight: 600;
+}
+.welcome {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.course-col {
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+}
+.course-col:hover {
+box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.enroll-block {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IMAGES/UG-LEGON.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.enroll-block h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  display: inline-flex;
+  background-color: #201b1b;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.copyright{
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.About-us {
+  margin-right: 300px;
+}
+.academic-styles {
+  color: #fff;
+}
+.heading-logo {
+  width: 30%;
+}
