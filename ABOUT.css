@@ -1,0 +1,114 @@
+.page-2 {
+  min-height: 65vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(92, 131, 182, 0.7),rgba(61, 63, 65, 0.7)),url(IMAGES/Acellus-AP-Computer-Science-A-1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.about-cs {
+  display: block;
+  padding: 3rem;
+  text-align: center;
+  color: grey;
+
+}
+.space {
+  display: block;
+  height: 20px;
+}
+.next-page {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #6365ce;
+  padding: 15px 35px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.next-page:hover {
+  border: 1px solid khaki;
+  color:khaki;
+  transition: 1s;
+  }
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #201b1b;
+}
+.back{
+  background-color: #201b1b;
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.About-us {
+  margin-right: 300px;
+}
+.academics-tag {
+  color: white;
+}
+.academic-styles {
+  color: #fff;
+  margin: 3rem;
+  flex-basis: 20%;
+  color: white;
+  margin: 2rem 1.5rem;
+
+}
+.visit-link {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 35px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.visit-link:hover {
+  border: 1px solid khaki;
+  color:khaki;
+  transition: 1s;
+}
+.me {
+  background-color: #6365ce;
+}
+  
+.copyright{
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+.text-about {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(118, 118, 199);
+}
+.short-course {
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.about-us {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #fff;
+}
