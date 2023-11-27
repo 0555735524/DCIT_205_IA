@@ -1,0 +1,104 @@
+
+.enroll-block {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IMAGES/UG-LEGON.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.enroll-block h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  background-color: #201b1b;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.About-us {
+  margin-right: 300px;
+}
+.button-tab {
+  width: 75px;
+  border: none;
+  cursor: pointer;
+  transition: 1.0s;
+  color: #201b1b;
+}
+.button-tab:hover {
+  border: none;
+  opacity: 0.5;
+  background-color: white;
+  color: rgb(90, 216, 153);
+}
+nav ul{
+  list-style: none;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: var(--p-size);
+  margin-right: 2vh;
+}
+.head, header, nav, nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+.logo {
+  width: 30%;    
+  height: 100%; 
+  s 
+}
+.header-buttons {
+  background-color: rgb(114, 170, 142);
+  
+}
+.form {
+  padding: 25px;
+}
+
+/* @media screen and(max-width:576px) {
+  header {
+    flex-direction: column;
+  }
+  .logo {
+    width: 50%;    
+    height: 100%;  
+    margin-left: 15rem;
+    
+  }
+
+} */
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 50%;
+    height: auto; /* Use auto for height to maintain the aspect ratio */
+    margin-left: 0; /* Remove the left margin or adjust as needed */
+  }
+}
