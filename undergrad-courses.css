@@ -1,0 +1,49 @@
+/* body{
+  margin: 2rem;
+}
+
+.level-courses{
+background-color: #a59595ff;
+width: 65vw;
+padding: 1rem;
+height: 0;
+opacity: 0;
+}
+
+.drop{
+  height: fit-content;
+  opacity:1;
+  transition: all 1.5s ease-in-out;
+}
+
+.level-btn{
+ background-color: hsla(61, 89%, 48%, 0.467) ;
+ width: 70vw;
+ border: 0;
+} */
+.level-courses {
+  background-color: #a59595ff;
+  width: 65vw;
+  padding: 1rem;
+  display: none; /* hide initially */
+  margin: 0 auto;
+}
+
+.drop {
+  display: block !important; /* override display: none; */
+  transition: all 1.5s ease-in-out;
+}
+
+.level-btn {
+  background-color: hsla(61, 38%, 54%, 0.467);
+  width: 70vw;
+  border: 0;
+  margin: 0.5rem;
+}
+.courses {
+  text-align: center;
+  color: rgb(118, 118, 199);
+}
+.courses-display {
+  text-align: center;
+}
